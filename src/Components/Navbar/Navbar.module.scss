@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  color: #4c3b4d;
+  flex-wrap: wrap;
+  gap: 40px;
+
+  &__link {
+    text-decoration: none;
+    color: #4c3b4d;
+  }
+
+  &__link:hover {
+    font-weight: bold;
+  }
+
+  &__link:visited {
+    color: #4c3b4d;
+  }
+
+  &__linkActive {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}
